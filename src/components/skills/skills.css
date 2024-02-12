@@ -1,0 +1,103 @@
+.skills{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        padding-top: 60px;
+
+        @media (max-width: 738px){
+            padding-top: 2vh;
+
+        }
+        
+        font-size: 36px;
+
+        .heading{
+            @media (max-width: 738px){
+                font-size: 28px;
+
+            }
+            
+            h1{
+            color:orange;
+            /* font-size: 70px; */
+            }
+        }
+
+        .skill{
+            display: flex;
+            flex-wrap: wrap;
+            gap:40px;
+            /* height: 100%;
+            width: 100%; */
+            margin: auto;
+            margin-top: 70px;
+            justify-content: center;
+            align-items: flex-start;
+
+            @media (max-width: 738px){
+                flex-direction: column;
+
+            }
+            
+
+          
+
+            .container{
+
+                height: 350px;
+                width: 300px;
+                flex:1;
+                display: flex;
+                justify-content: flex-start;
+                border-radius: 18px;
+                /* align-items: center; */
+                border: 1px solid lightgray;
+                flex-direction: column;
+                /* padding: 20px; */
+                .heading{
+                    letter-spacing: 2px;
+                    font-size: 20px;
+                    padding: 20px;
+                    background-color: orange;
+                    border-radius: 18px;
+
+                    @media (max-width: 738px){
+                        font-size: 16px;
+
+                    }
+                    
+                    h1{
+                        color:white;
+                        text-align: center;
+                    }
+              
+                }
+
+                .list{
+                    padding: 30px;
+                    font-size: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+
+                    ul{
+                        /* text-align: center; */
+                       
+                        li{
+                            line-height: 30px;
+                           
+                        }
+                    }
+                }
+            }
+        
+        }
+    }
+ }
